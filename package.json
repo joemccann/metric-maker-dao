@@ -1,0 +1,30 @@
+{
+  "name": "metric-maker-dao",
+  "version": "1.0.2",
+  "description": "⚒ Retrieve Maker stats and metrics via the mkr.tools unofficial API.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard .",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemccann/metric-maker-dao.git"
+  },
+  "keywords": [
+    "maker"
+  ],
+  "author": "Joe McCann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joemccann/metric-maker-dao/issues"
+  },
+  "homepage": "https://github.com/joemccann/metric-maker-dao#readme",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
